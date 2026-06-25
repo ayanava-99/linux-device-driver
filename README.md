@@ -29,7 +29,7 @@ crash the kernel. You also need the kernel headers and build tools:
     dmesg | tail                  # see the module's log messages
 
     gcc reader.c -o reader        # build the user-space reader
-    ./reader                      # -> kernel said: Hello from kernel space!
+    ./reader                      # Hello from kernel space!
 
     sudo rmmod mydriver           # unload the module
     dmesg | tail                  # see the unload message
